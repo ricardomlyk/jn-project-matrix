@@ -17,9 +17,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     display: block;
 }
 body {
-    background: no-repeat scroll center top #ddd;
+    background: no-repeat scroll center top #A9D46D;
     color: #000000;
-    font: 0.81em/150% Arial,Helvetica,sans-serif;
+    font: 1.2em Arial,Helvetica,sans-serif;
 }
 a {
     color: #026ACB;
@@ -89,7 +89,7 @@ input[type="search"] {
     color: #222;
     font: italic 400% "Times New Roman",Times,serif;
     position: absolute;
-    top: 40px;
+    top: 20px;
     left: 50%;
     font-size: 2.9em;
 }
@@ -133,13 +133,13 @@ input[type="search"] {
     margin-left: 10px;
 }
 #main-nav a {
-    color: #FFFFFF;
+    color: #222222;
     display: block;
     font-weight: bold;
     line-height: 100%;
     padding: 14px 15px;
     text-decoration: none;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+    text-shadow: 0 -1px 0 rgba(255 ,255 ,255 ,0.5);
 }
 #main-nav a:hover {
     background: linear-gradient(-90deg, #282828, #4F4F4F) repeat scroll 0 0 rgba(0, 0, 0, 0);
@@ -220,20 +220,18 @@ input[type="search"] {
 position: relative;
 float: left;
 margin:0 auto;
-width: 20%;
 height: auto;
 background-color: rgba(100,100,100,0.5);
 border-radius: 4px 4px 4px 4px;
+    width:50%;
 }   
 .selectMenu {
 position: relative;
-width: auto;
 height: auto;
 }
 .selectSelect,.li {
 position: relative;
 height: auto;
-width:auto;
 float: center;  
 font-size:1.8em;
 text-align: center;
@@ -245,7 +243,6 @@ text-align: center;
 }
 .selectTab {
 position: relative;
-width: auto;
 height: auto;
 display:none;
 }

@@ -13,23 +13,23 @@
 				$("#selectTab").slideToggle();
 			});
 			$("#li1").click(function(){
-				$("#selectSelect").text("lib");
+				$("#selectSelect").text("图书馆");
 				$("#selectTab").toggle();
 			});
 			$("#li2").click(function(){
-				$("#selectSelect").text("fir");
+				$("#selectSelect").text("一教");
 				$("#selectTab").toggle();
 			});
 			$("#li3").click(function(){
-				$("#selectSelect").text("sec");
+				$("#selectSelect").text("二教");
 				$("#selectTab").toggle();
 			});
 			$("#li4").click(function(){
-				$("#selectSelect").text("can");
+				$("#selectSelect").text("一食堂");
 				$("#selectTab").toggle();
 			});
 			$("#li5").click(function(){
-				$("#selectSelect").text("dor");
+				$("#selectSelect").text("宿舍");
 				$("#selectTab").toggle();
 			});
 		});
@@ -42,33 +42,33 @@
 				<h1 id="site-logo">
 					<img src="logo.png">
 				</h1>
-				<h2 id="site-description">Project Matrix-v0.1</h2>
+				<h2 id="site-description">江南矩阵计划 v0.1</h2>
 			</hgroup>
 			<nav>
 				<ul id="main-nav" class="clearfix">
 					<li>
-						<a href="#">Home</a>
+						<a href="#">主页</a>
 					</li>
 					<li>
-						<a href="#">Loc</a>
+						<a href="#1">位置</a>
 					</li>
 					<li>
-                        <a href="http://www.jnrain.com">AboutUs</a>
+                        <a href="http://www.jnrain.com">关于我们</a>
 					</li>
 					<li>
-						<a href="#">XXX</a>
+						<a href="#">其他</a>
 					</li>
 				</ul>
 			</nav>
 			<form id="searchform">
-				<input id="s" type="search" placeholder="Seaarch">
+				<input id="s" type="search" placeholder="Search">
 			</form>
 		</header>
 		<div id="content">
 			<article class="post clearfix">
 				<header>
 					<h1 class="post-title">
-						<a href="#">Your position is:</a>
+						<a href="#">我现在位于:</a>
 					</h1>
 				</header>
 				<p>Library</p>				
@@ -76,41 +76,37 @@
 			<article>
 				<header>
 					<h1 class="post-title">
-						<a href="#">Select your position:</a>
+						<a href="#">选择我要去的位置:</a>
 					</h1>
 				</header>
 					<div id="selectBar" class="selectBar">
 						<div id="selectMenu" class="selectMenu">
-							<div id="selectSelect" class="selectSelect">Cho</div>
+							<div id="selectSelect" class="selectSelect">请选择</div>
 							<div id="selectTab" class="selectTab">
-								<div id="li1" class="li">lib</div>
-								<div id="li2" class="li">fir</div>
-								<div id="li3" class="li">sec</div>
-								<div id="li4" class="li">can</div>
-								<div id="li5" class="li">dor</div>
+								<div id="li1" class="li">图书馆</div>
+								<div id="li2" class="li">一教</div>
+								<div id="li3" class="li">二教</div>
+								<div id="li4" class="li">一食堂</div>
+								<div id="li5" class="li">宿舍</div>
 							</div>
         				</div>
 					</div>
-					<br>
-					<br>
-					<br>
-					<br>
 			</article>
 		</div>
-		<aside id="sidebar">
+        <aside id="sidebar"><a id="1"></a>
 			<section class="widget">
-				<h1 class="widgettitle">Surroundings:</h1>
+				<h1 class="widgettitle">周边建筑：</h1>
 				<ul>
 					<li>
-						<a href="#">North Door</a>
+						<a href="#">北大门</a>
 						(3)
 					</li>
 					<li>
-						<a href="#">First Building</a>
+						<a href="#">第一教学楼</a>
 						(23)
 					</li>
 					<li>
-						<a href="#">First Canteen</a>
+						<a href="#">江南苑</a>
 						(18)
 					</li>
 				</ul>
