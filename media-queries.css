@@ -1,0 +1,80 @@
+/* MEDIA QUERIES FOR PROJECT-MATRIX */
+@media screen and (max-width: 980px) {
+#pagewrap {
+    width: 95%;
+}
+#content {
+    padding: 3% 4%;
+    width: 60%;
+}
+#sidebar {
+    width: 30%;
+}
+#sidebar .widget {
+    margin-bottom: 10px;
+    padding: 8% 7%;
+}
+#site-description {
+    text-align: center;
+}
+}
+
+@media screen and (max-width: 650px) {
+#header {
+    height: auto;
+}
+#searchform {
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    z-index: 100;
+}
+#searchform #s {
+    width: 70px;
+}
+#searchform #s:focus {
+    width: 120px;
+}
+#main-nav {
+    position: static;
+}
+#site-logo {
+    margin: 15px 100px 5px 0;
+    position: static;
+}
+#site-description {
+    margin: 0 0 15px;
+    position: static;
+}
+#content {
+    float: left;
+    margin: 20px 0;
+    width: 92%;
+    position: relative;
+    height: auto;
+}
+#sidebar {
+    float: left;
+    margin: 0;
+    width: 100%;
+}
+#sidebar .widget {
+    margin: 0 0 10px;
+    padding: 3% 4%;
+}
+}
+@media screen and (max-width: 480px) {
+html {
+}
+#main-nav a {
+    font-size: 90%;
+    padding: 10px 8px;
+}
+#site-description {
+    font: italic 230%/130% "Times New Roman",Times,serif;
+    position: relative
+    top: 0;
+    left: 0;
+}
+}
